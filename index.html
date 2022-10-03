@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Assignment 1: Personas and Storyboarding</title>
+</head>
+<body>
+<nav class="navbar sticky-top navbar-expand-sm bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ui observation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#goal">goal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#design">design</a>
+                </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#interviews">interviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#responses">responses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#observations">observations</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#personas">personas</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#storyboards">storyboards</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#results">results</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+<div class="d-flex flex-column justify-content-center align-items-center section">
+    <img src="images/cocacolaselfserve.png" alt="coca cola self serve 7000 icon" style="width: 20rem; ">
+    <h1 class="text-dark display-1">ui observation:</h1>
+    <h2 class="text-dark">coca cola self-serve 7000</h2>
+    <a href="#goal" class="btn-primary text-dark" role="button">read more</a>
+</div>
+
+<div id="goal" class="container-fluid text-center w-50 section">
+    <h4>goal</h4>
+    <p class="lead">knowing your users and their stories is key to making an effective interface.</p>
+    <p class="lead">we observed and interviewed users of the ratty's coca-cola self-serve 7000, created user personas, 
+                    and drew storyboards in an attempt to evaluate the soda machine's interface. </p>
+</div>
+
+<div id="design" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+    <h4>interface design</h4>
+    <p class="lead">the self-serve 7000 begins on a main screen page with an assortment of drink choices. </p>
+    <img src="images/mainmenu.png" alt="main menu screen" style="width: 50% ">
+    <p class="lead">after selecting a drink, there is often a submenu with flavor options for that specific drink. </p>
+    <img src="images/submenu.png" alt="main menu screen" style="width: 50% ">
+    <p class="lead">users may pour ice at any time, but may only fill a drink after it has been selected. </p>
+
+
+</div>
+
+<div id="interviews" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+        <h4>interviews</h4>
+        <div>
+            
+            <p style="text-align: center;"class="lead">we asked 3 users to answer the following questions:</p>
+            <div class="questions-container">
+                <ul>
+                    <li>
+                        in your opinion, how effective is the coca-cola soda dispenser machine?
+                        <div class="input-group btn-group radio d-flex flex-column">
+                            
+                            <div><input type="radio" name="how-effective">very effective </div>
+                            <div><input type="radio" name="how-effective">somewhat effective </div>
+                            <div><input type="radio" name="how-effective">a little effective </div>
+                            <div><input type="radio" name="how-effective">not effective </div>
+                            
+                        </div>
+                    </li>
+                    <li>how long have you used this model of soda dispenser?</li>
+                    <li>what drink do you usually get?
+                        <ul>
+                            <li>if water: do you usually go here to get your water?
+                                <ul><li>if yes: why do you usually get water here?</li></ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>what is the easiest part about using the Coca-Cola soda dispenser?</li>
+                    <li>what is the hardest part about using the Coca-Cola dispenser?</li>
+                    <li>why did you choose the soda dispenser today? (check all that apply)
+                        <div class="input-group btn-group checkbox d-flex flex-column" >
+                            <div><input type="checkbox">to try it out for the first time</div>
+                            <div><input type="checkbox">because I saw someone else use it</div>
+                            <div><input type="checkbox">to get a drink that I usually get</div>
+                            <div><input type="checkbox">because it was close to me</div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+
+<div id="responses" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+    <h4>responses</h4>
+    <p class="lead">
+        how users responded to the above questions
+    </p>
+    <ul class = "list-group ">
+        <li class="list-group-item">the machine is "very" or "somewhat" effective</li>
+        <li class="list-group-item">experience range: new user - 2 years</li>
+        <li class="list-group-item">some typically get soda, some get water</li>
+        <li class="list-group-item">if they're getting water, they pick it because it's close</li>
+        <li class="list-group-item">easiest part: there's only one physical drink dispenser</li>
+        <li class="list-group-item">hardest part: slow/unresponsive touch screen</li>
+        <li class="list-group-item">2/3 users had a regular drink choice</li>
+        <li class="list-group-item">users would return to use the machine in the future</li>
+    </ul>
+</div>
+
+<div id="observations" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+    <h4>observations</h4>
+    <p class="lead">
+        objective observations noted during usage
+    </p>
+    <ul class = "list-group">
+        <li class="list-group-item">all users got ice</li>
+        <li class="list-group-item">all users poured ice before selecting drink</li>
+        <li class="list-group-item">all users kept one hand on their cup throughout their usage</li>
+        <li class="list-group-item">drink choices: coke, vitamin water, and water</li>
+        <li class="list-group-item">the water user didn't look at the interface long</li>
+        <li class="list-group-item">the vitamin water user browsed flavors before selecting</li>
+        <li class="list-group-item">both flavored drink users spent more time on the flavor page than the main page</li>
+    </ul>
+</div>
+
+<div id="personas" class="d-flex flex-column container-fluid align-items-center w-75 section">
+    <h4>personas</h4>
+    <p class="lead">
+        user personas created based on responses and observations
+    </p>
+    <div class="d-flex flex-row justify-content-center">
+        <img src="images/sarah.svg" style="width: 50%" alt="persona 1: social sarah is busy, and doesn't care what kind of drink she gets, as long as she can get back to her table in time">
+        <img src="images/white.png" style="width: 2%" alt="">
+        <img src="images/chloe.svg" style="width: 50%" alt="persona 2: calm chloe is less pressed for time, and usually gets water. she takes her time as she fills both ice and water, before eating alone. ">
+    </div>
+</div>
+
+<div id="storyboards" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+    <h4>storyboards</h4>
+    <p class="lead">
+        storyboards based on the above user personas
+    </p>
+    <br><br>
+    <h3>social sarah</h3>
+    <img src="images/sarah-board.png" style="width: 95%"  alt="persona 1: social sarah is busy, and doesn't care what kind of drink she gets, as long as she can get back to her table in time">
+
+
+
+    <h3>calm chloe</h3>
+    <img src="images/chloe-board.png" style="width: 99%" alt="persona 2: calm chloe is less pressed for time, and usually gets water. she takes her time as she fills both ice and water, before eating alone. ">
+
+    <div class="d-flex flex-row justify-content-around">
+        <img src="images/white.png" style="width: 2%" alt="">
+    </div>
+</div>
+
+<div id="results" class="d-flex flex-column container-fluid justify-content-center align-items-center w-75 section">
+    <h4>results/remarks</h4>
+    <p class="lead">
+        given the range in usage—-new users, experienced users, browsers, and regular drink-getters—-
+        the self-serve 7000's interface seems to lie in a happy middle ground. users who have a 
+        drink in mind can find it easily, and browsers are allowed to dive into submenus for specific
+        flavors, rather than seeing every flavor of every soda at once. 
+    </p>
+</div>
+
+</body>
+</html>

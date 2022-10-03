@@ -1,0 +1,28 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+#goal {
+    margin-bottom: 200px;
+}
+
+li {
+    margin-bottom: 10px;
+
+}
